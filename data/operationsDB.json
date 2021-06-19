@@ -110,5 +110,12 @@
     "date": "2021-06-18",
     "kind": "egreso",
     "id": 17
+  },
+  {
+    "concept": "Quiniela",
+    "amount": 5000,
+    "date": "2021-06-10",
+    "kind": "ingreso",
+    "id": 18
   }
 ]
