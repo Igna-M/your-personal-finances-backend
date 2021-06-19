@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%- include('./partials/head') %>
+</head>
+<body>
+  <%- include('./partials/header') %>
+  <main>
+    <div>
+    <% if (message) { %>
+      <h2><%= message %></h2>
+    <% } else { %>  
+      <h2>Ingresa los datos de la operación:</h2>
+    <% } %>
+    <div>
+
+      <form action="/registerOperation" method="POST" autocomplete="on">
+          
+        <div class="">
+          <label for="concept">Concepto:</label>
+          <input type="text" name="concept" id="concept" placeholder="Concepto de la operación" value="<%= locals.originalData ? originalData.concept : null %>">
+          <% if (locals.errores && errores.concept) { %>
+              <div class="">
+                  <%= errores.concept.msg %> 
+              </div>
+          <% } %>
+      </div>
+
+      <div class="">
+        <label for="amount">Monto:</label>
+        <input type="number" name="amount" id="amount" step="0.01" placeholder="Ingresa un número" value="<%= locals.originalData ? originalData.amount : null %>">
+        <% if (locals.errores && errores.amount) { %>
+            <div class="">
+                <%= errores.amount.msg %> 
+            </div>
+        <% } %>
+      </div>
+
+      <div class="">
+        <label for="date">Fecha:</label>
+        <input type="date" name="date" id="date" value="<%= locals.originalData ? originalData.date : dateNow %>">
+        <% if (locals.errores && errores.monto) { %>
+            <div class="">
+                <%= errores.monto.msg %> 
+            </div>
+        <% } %>
+      </div>
+
+      <div class="">
+        <label for="kind">Tipo de operación:</label>
+        <select type="date" name="kind" id="kind">
+          <option value="egreso">Egreso</option>
+          <option value="ingreso">Ingreso</option>
+        </select>
+      </div>
+
+      <div class="">
+        <input type="submit" value="Crear">
+      </div>
+        
+      </form>
+    </div>
+    <%- include('./partials/list-buttons') %>
+  </main>
+
+</body>
+</html>

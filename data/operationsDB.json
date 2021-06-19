@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "concept": "Supermercado",
+    "amount": 567,
+    "date": "2021-05-26",
+    "kind": "egreso"
+  },
+  {
+    "id": 2,
+    "concept": "Taxi",
+    "amount": 123,
+    "date": "2021-05-26",
+    "kind": "egreso"
+  },
+  {
+    "id": 3,
+    "concept": "Kiosco",
+    "amount": 67,
+    "date": "2021-05-25",
+    "kind": "egreso"
+  },
+  {
+    "id": 4,
+    "concept": "Fotocopias",
+    "amount": 30,
+    "date": "2021-05-21",
+    "kind": "egreso"
+  },
+  {
+    "concept": "Clase de piano",
+    "amount": 1000,
+    "date": "2021-05-26",
+    "kind": "ingreso",
+    "id": 5
+  },
+  {
+    "id": 6,
+    "concept": "Verdulería",
+    "amount": 96,
+    "date": "2021-05-25",
+    "kind": "egreso"
+  },
+  {
+    "id": 7,
+    "concept": "Cine",
+    "amount": 210,
+    "date": "2021-05-25",
+    "kind": "egreso"
+  },
+  {
+    "id": 8,
+    "concept": "Golosinas",
+    "amount": 29,
+    "date": "2021-05-24",
+    "kind": "egreso"
+  },
+  {
+    "id": 9,
+    "concept": "Librería",
+    "amount": 124.55,
+    "date": "2021-05-25",
+    "kind": "egreso"
+  },
+  {
+    "id": 10,
+    "concept": "Comida para peces",
+    "amount": 302,
+    "date": "2021-05-26",
+    "kind": "egreso"
+  },
+  {
+    "concept": "Trabajo de plomería",
+    "amount": 1550,
+    "date": "2021-05-23",
+    "kind": "ingreso",
+    "id": 11
+  },
+  {
+    "id": 12,
+    "concept": "Clases de inglés",
+    "amount": 900,
+    "date": "2021-05-25",
+    "kind": "egreso"
+  },
+  {
+    "id": 14,
+    "concept": "Venta de libro de astronomía",
+    "amount": 300,
+    "date": "2021-05-27",
+    "kind": "ingreso"
+  },
+  {
+    "concept": "Clase de piano",
+    "amount": 800,
+    "date": "2021-05-27",
+    "kind": "egreso",
+    "id": 15
+  },
+  {
+    "id": 16,
+    "concept": "Desayuno",
+    "amount": 220.1,
+    "date": "2021-05-28",
+    "kind": "egreso"
+  },
+  {
+    "concept": "Cablevision",
+    "amount": 3100,
+    "date": "2021-06-18",
+    "kind": "egreso",
+    "id": 17
+  }
+]
